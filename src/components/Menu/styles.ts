@@ -7,7 +7,7 @@ export const Section = styled.div`
 
     margin: 5px 15px;
     height: 65px;
-    width: 280px;
+    width: 293px;
 
     font-size: 18px;
     font-weight: bold;
@@ -21,4 +21,12 @@ export const Section = styled.div`
         font-size:44px;
         font-size-adjust: 20px;
     }
+`;
+
+export const Options = styled.div`
+    float: left;
+`;
+
+export const MainText = styled.div`
+    float: right;
 `;

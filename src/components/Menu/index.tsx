@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Section } from "./styles"
+import { Section, Options, MainText, } from "./styles"
 
 const Menu: React.FC = () => {
   const [showText, setShowText] = React.useState(false)
@@ -10,34 +10,57 @@ const Menu: React.FC = () => {
     id="Text" 
     className="search-Text"
     style={{
-      color: "red",
-      border: "2px solid black",
+      width: "700px", 
+
+      marginRight: "200px",
+      marginTop: "25px",
+
+      fontFamily: "'Open Sans', sans-serif",
+      fontWeight: 'bold',
+      fontSize: "18px",
+
+      textAlign: "left",
+      letterSpacing: "2px",
+
+      color: "var(--black)",
+      
     }}
+    onMouseEnter={() => setShowText(true)} 
+    onMouseLeave={() => setShowText(false)}
     >
-      Some Text
+      ‎ Aqui  você  verá  alguns  dos  projetos  os  quais  tenho  
+      trabalhado  nos  últimos  meses,  para  mais  detalhes  clique  no  
+      ícone  do  Github.
+      <br></br><br></br>
+      • Lista de Tarefas em typescript<br></br><br></br>
+      • Aplicativo de conversão de temperatura<br></br><br></br>
+      • Clone do twitter<br></br><br></br>
+      • Jogo de pedra, papel e tesoura<br></br><br></br>
     </div>
   )
 
   return (
-    <div>
-      <Section
-        onMouseEnter={() => setShowText(true)} 
-        onMouseLeave={() => setShowText(false)}>
-          Projects
-      </Section>
-      <Section
-        onMouseEnter={() => setShowText(true)} 
-        onMouseLeave={() => setShowText(false)}>
-          Info
-      </Section>
-      <Section
-        onMouseEnter={() => setShowText(true)} 
-        onMouseLeave={() => setShowText(false)}>
-          Contact
-      </Section>
       <div>
-      { showText ? <Projects /> : null }
-      </div>
+        <Options>
+          <Section
+            onMouseEnter={() => setShowText(true)} 
+            onMouseLeave={() => setShowText(false)}>
+              Projects
+          </Section>
+          <Section
+            onMouseEnter={() => setShowText(true)} 
+            onMouseLeave={() => setShowText(false)}>
+              Info
+          </Section>
+          <Section
+            onMouseEnter={() => setShowText(true)} 
+            onMouseLeave={() => setShowText(false)}>
+              Contact
+          </Section>
+        </Options>
+        <MainText>
+          { showText ? <Projects /> : null }
+        </MainText>
     </div>
     )
 
