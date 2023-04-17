@@ -12,7 +12,6 @@ const Menu: React.FC = () => {
     style={{
       color: "red",
       border: "2px solid black",
-      left: "45px",
     }}
     >
       Some Text
