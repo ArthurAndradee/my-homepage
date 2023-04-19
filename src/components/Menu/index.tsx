@@ -101,7 +101,7 @@ const Menu: React.FC = () => {
           <Section
             onMouseEnter={() => setShowProject(true)} 
             onMouseLeave={() => setShowProject(false)}>
-              Projects
+              Projetos
           </Section>
           <Section
             onMouseEnter={() => setShowInfo(true)} 
@@ -111,7 +111,7 @@ const Menu: React.FC = () => {
           <Section
             onMouseEnter={() => setShowContact(true)} 
             onMouseLeave={() => setShowContact(false)}>
-              Contact
+              Contatos
           </Section>
         </Options>
         <MainText>
