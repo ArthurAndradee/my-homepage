@@ -64,7 +64,15 @@ const Menu: React.FC = () => {
     onMouseEnter={() => setShowInfo(true)} 
     onMouseLeave={() => setShowInfo(false)}
     >
-      AAAAAA
+      ‎ E aí? Me chamo Arthur Andrade, tenho 17 anos e um sonho de 
+      trabalhar na área de desenvolvimento front-end. <br />
+      ‎ Atualmente estou no ensino médio. Comecei meus estudos em 
+      novembro de 2022 e sigo com eles até hoje. Durante esse período, aprendi
+      HTML, CSS, Javascript e estou seguindo minha jornada com <br /> o React
+      no ramo de construção de aplicações e websites. <br />
+      ‎ Hoje em Porto Alegre, estou em busca de vagas que aproximem-se
+      do caminho do desenvolvimento web, e pretendo seguir esse caminho de
+      eterno aprendizado durante muitos anos por vir.
     </section>
   )
 
@@ -91,7 +99,8 @@ const Menu: React.FC = () => {
     onMouseEnter={() => setShowContact(true)} 
     onMouseLeave={() => setShowContact(false)}
     >
-      STAYING ALIVE
+      Aqui estão à mostra informações para o meu contato: <br />
+      
     </section>
   )
 
