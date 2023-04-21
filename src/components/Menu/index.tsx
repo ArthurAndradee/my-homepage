@@ -100,7 +100,12 @@ const Menu: React.FC = () => {
     onMouseLeave={() => setShowContact(false)}
     >
       Aqui estão à mostra informações para o meu contato: <br />
-      
+                                                          <br />
+      Github: @ArthurAndradee                             <br />
+      Email: arthurandrad.23@gmail.com                    <br />
+      linkedin.com/in/arthurandradee
+
+
     </section>
   )
 
