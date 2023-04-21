@@ -8,7 +8,10 @@ export const Container = styled.div`
     bottom:30px;
     left:60px;
 
-    border: 1px solid var(--black);
+    border: 1px solid;
+    border-color: var(--black);
+
+    transition: all 500ms;
 `;
 
 export const Header = styled.div`
@@ -17,6 +20,8 @@ export const Header = styled.div`
 
     margin: 15px;
     font-family: 'Open Sans', sans-serif;
+
+    transition: all 500ms;
 `;
 
 export const Title = styled.div`
@@ -26,4 +31,6 @@ export const Title = styled.div`
     font-size: 15px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
+
+    transition: all 500ms;
 `;

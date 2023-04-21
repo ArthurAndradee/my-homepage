@@ -4,6 +4,8 @@ import Menu from '../Menu';
 
 import Point from '../Dot';
 
+import Button from '../Button';
+
 import { 
   Container, 
   Header,
@@ -12,12 +14,15 @@ import {
 
 const Layout: React.FC = () => {
   return (
-    <Container>
-        <Header>Arthur Andrade</Header>
-        <Title>Estudante de ensino médio & Desenvolvedor front-end júnior</Title>
-        <Point />
-        <Menu />
-    </Container>
+    <div>
+      <Button />
+      <Container>
+          <Header>Arthur Andrade</Header>
+          <Title>Estudante de ensino médio & Desenvolvedor front-end júnior</Title>
+          <Point />
+          <Menu />
+      </Container>
+    </div>
   );
 }
 

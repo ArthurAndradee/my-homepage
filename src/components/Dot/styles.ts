@@ -8,4 +8,6 @@ export const Dot = styled.div`
   display: inline-block;
 
   margin: 15px 15px 0px;
+
+  transition: all 500ms;
 `;
