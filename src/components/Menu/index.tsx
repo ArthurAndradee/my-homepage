@@ -13,7 +13,7 @@ const Menu: React.FC = () => {
     className="search-Text"
     style={{
       width: "700px", 
-
+      
       marginRight: "200px",
       marginTop: "25px",
 
@@ -25,7 +25,6 @@ const Menu: React.FC = () => {
       letterSpacing: "2px",
 
       color: "var(--black)",
-      
     }}
     onMouseEnter={() => setShowProject(true)} 
     onMouseLeave={() => setShowProject(false)}

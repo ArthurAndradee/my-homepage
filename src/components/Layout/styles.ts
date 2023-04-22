@@ -34,3 +34,8 @@ export const Title = styled.div`
 
     transition: all 500ms;
 `;
+
+export const Icons = styled.div`
+    float: right;
+    margin-right: 50px;
+`;

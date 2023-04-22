@@ -15,7 +15,7 @@ const Button: React.FC = () => {
             document.documentElement.style.backgroundColor = "#FFFFFF"
         } else {
             document.documentElement.style.setProperty('--black', '#FFFFFF');
-            document.documentElement.style.backgroundColor = "#313131"
+            document.documentElement.style.backgroundColor = "#212121"
         }
     }
    
