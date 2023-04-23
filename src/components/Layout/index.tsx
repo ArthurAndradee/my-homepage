@@ -23,11 +23,17 @@ const Layout: React.FC = () => {
       <Button />
       <Container>
           <Header>Arthur Andrade</Header>
-          <Icons>
-            <FontAwesomeIcon icon={faGithub}size="xl" style={{margin: "10px", cursor: "pointer"}}></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faLinkedin}size="xl" style={{margin: "10px", cursor: "pointer"}}></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faEnvelope}size="xl" style={{margin: "10px", cursor: "pointer"}}></FontAwesomeIcon>
-          </Icons>
+            <Icons>
+              <a href="https://github.com/ArthurAndradee" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faGithub}size="xl" style={{color:"var(--black)", margin: "10px", cursor: "pointer"}}></FontAwesomeIcon>  
+              </a>
+              <a href="https://www.linkedin.com/in/arthur-andrade-da-silva-05a131216/" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faLinkedin}size="xl" style={{margin: "10px", cursor: "pointer"}}></FontAwesomeIcon>
+              </a>
+              <a href="mailto: arthurandrad.23@gmail.com" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faEnvelope}size="xl" style={{margin: "10px", cursor: "pointer"}}></FontAwesomeIcon>
+              </a>
+            </Icons>
           <Title>Estudante de ensino médio & Desenvolvedor front-end júnior</Title>
           <Point />
           <Menu />
