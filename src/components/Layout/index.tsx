@@ -25,13 +25,13 @@ const Layout: React.FC = () => {
           <Header>Arthur Andrade</Header>
             <Icons>
               <a href="https://github.com/ArthurAndradee" target="_blank" rel="noreferrer">
-                <FontAwesomeIcon icon={faGithub}size="xl" style={{color:"var(--black)", margin: "10px", cursor: "pointer"}}></FontAwesomeIcon>  
+                <FontAwesomeIcon icon={faGithub}size="xl" style={{color:"var(--black)", margin: "10px", cursor: "pointer", transition:"all 500ms",}}></FontAwesomeIcon>  
               </a>
               <a href="https://www.linkedin.com/in/arthur-andrade-da-silva-05a131216/" target="_blank" rel="noreferrer">
-                <FontAwesomeIcon icon={faLinkedin}size="xl" style={{margin: "10px", cursor: "pointer"}}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faLinkedin}size="xl" style={{color:"var(--black)", margin: "10px", cursor: "pointer", transition:"all 500ms",}}></FontAwesomeIcon>
               </a>
               <a href="mailto: arthurandrad.23@gmail.com" target="_blank" rel="noreferrer">
-                <FontAwesomeIcon icon={faEnvelope}size="xl" style={{margin: "10px", cursor: "pointer"}}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faEnvelope}size="xl" style={{color:"var(--black)", margin: "10px", cursor: "pointer", transition:"all 500ms",}}></FontAwesomeIcon>
               </a>
             </Icons>
           <Title>Estudante de ensino médio & Desenvolvedor front-end júnior</Title>

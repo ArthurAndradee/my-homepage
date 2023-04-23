@@ -39,6 +39,3 @@ export const Icons = styled.div`
     float: right;
     margin-right: 50px;
 `;
-
-export const FontAwesomeIcon = styled.a`
-`; 
