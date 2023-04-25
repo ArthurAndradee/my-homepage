@@ -98,13 +98,7 @@ const Menu: React.FC = () => {
     onMouseEnter={() => setShowContact(true)} 
     onMouseLeave={() => setShowContact(false)}
     >
-      Aqui estão à mostra informações para o meu contato: <br />
-                                                          <br />
-      Github: @ArthurAndradee                             <br />
-      Email: arthurandrad.23@gmail.com                    <br />
-      linkedin.com/in/arthurandradee
-
-
+      Clique para ver!
     </section>
   )
 
@@ -124,7 +118,15 @@ const Menu: React.FC = () => {
           <Section
             onMouseEnter={() => setShowContact(true)} 
             onMouseLeave={() => setShowContact(false)}>
-              Contatos
+              <a style={{
+                color:"var(--black)", 
+                textDecoration: "none",
+                }}
+                href="https://www.canva.com/design/DAFT_Ap8cus/2bAMES5ofM5ceY0rOtdGGA/view?utm_content=DAFT_Ap8cus&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" 
+                target="_blank" 
+                rel="noreferrer">
+                  Currículo
+              </a>
           </Section>
         </Options>
         <MainText>
