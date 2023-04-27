@@ -19,7 +19,6 @@ export const Section = styled.div`
     
     :hover {
         font-size:44px;
-        font-size-adjust: 20px;
     }
 `;
 

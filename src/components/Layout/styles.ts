@@ -22,6 +22,10 @@ export const Header = styled.div`
     font-family: 'Open Sans', sans-serif;
 
     transition: all 500ms;
+
+    :hover {
+        font-size:67px;
+}
 `;
 
 export const Title = styled.div`
