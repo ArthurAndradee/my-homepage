@@ -37,9 +37,17 @@ export const Title = styled.div`
     font-family: 'Open Sans', sans-serif;
 
     transition: all 500ms;
+
+    :hover {
+        font-size:17px;
+    }
 `;
 
 export const Icons = styled.div`
     float: right;
     margin-right: 50px;
+
+    :hover {
+        size:2xl
+    }
 `;
