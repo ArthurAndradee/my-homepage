@@ -46,8 +46,4 @@ export const Title = styled.div`
 export const Icons = styled.div`
     float: right;
     margin-right: 50px;
-
-    :hover {
-        size:2xl
-    }
 `;

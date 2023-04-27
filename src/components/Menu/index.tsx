@@ -121,6 +121,7 @@ const Menu: React.FC = () => {
               <a style={{
                 color:"var(--black)", 
                 textDecoration: "none",
+                transition: "all 500ms",
                 }}
                 href="https://www.canva.com/design/DAFT_Ap8cus/2bAMES5ofM5ceY0rOtdGGA/view?utm_content=DAFT_Ap8cus&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" 
                 target="_blank" 
