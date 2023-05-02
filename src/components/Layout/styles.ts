@@ -25,7 +25,9 @@ export const Header = styled.div`
 
     :hover {
         font-size:67px;
-}
+    }
+
+    width: 480px;
 `;
 
 export const Title = styled.div`
@@ -41,6 +43,8 @@ export const Title = styled.div`
     :hover {
         font-size:17px;
     }
+
+    width: 480px;
 `;
 
 export const Icons = styled.div`
